@@ -1,6 +1,5 @@
 // export default  4;
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Motion, spring } from 'react-motion';
 import CssToMatrix from 'css-to-matrix';
@@ -28,16 +27,6 @@ const ImageContainer = styled.div`
 `;
 
 export default class ReactZoomy extends Component {
-  static propTypes = {
-    imageUrl: PropTypes.string.isRequired,
-    renderThumbnail: PropTypes.func.isRequired,
-    renderCursor: PropTypes.func,
-    renderLoadingElement: PropTypes.func,
-    imageContainerProps: PropTypes.object,
-    imageProps: PropTypes.object,
-    scale: PropTypes.array
-  };
-
   static defaultProps = {
     scale: [1, 1]
   };
