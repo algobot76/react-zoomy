@@ -31,6 +31,5 @@
     "react": "^15.4.2",
     "react-motion": "^0.4.7",
     "styled-components": "^1.4.3"
-  },
-  "homepage": "http://chuson1996.github.io/react-zoomy"
+  }
 }
